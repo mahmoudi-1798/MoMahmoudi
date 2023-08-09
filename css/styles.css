@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #F6F4EB;
+}
+
+.header {
+    background-color: #F6F4EB;
+    height: 100vh;
+}
+
+.header-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover; 
+}
+
+.container {
+    padding: 0 100px;
+    height: 100%;
+}
+
+.container::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.navbar {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 50%, transparent);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.4s ease-in-out;
+    z-index: 2;
+}
+
+/* Scrolled style for the navbar */
+.navbar.scrolled {
+    background-color: #164856; 
+  }
+
+.logo {
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+}
+
+.list {
+    position: relative;
+    display: flex;
+}
+
+.list li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+.list li a {
+    font-size: 27px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+.header-texts {
+    background-color: rgba(0, 0, 0, 0.3); /* Background color for the div */
+    box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.3);
+    width: 40%;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    text-align: center; 
+    padding: 20px;
+}
+
+.header-texts p {
+    justify-content: center;
+    text-align: center;
+}
+
+.h-title {
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+
+.h-text {
+    font-size: 20px;
+    color: white;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.about {
+    height: 820px;
+    background-color: #F4F4F4;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.about-content {
+    padding-top: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-title {
+    font-size: 35px;
+    margin-bottom: 50px;
+    font-weight: lighter;
+}
+
+.about-content img {
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+.about-text {
+    font-size: 22px;
+    font-weight: lighter;
+    margin-inline: 250px;
+}
+
+.quote {
+    height: 500px;
+    background-image: url("../assets/images/wil-stewart-RpDA3uYkJWM-unsplash.jpg");
+}
+
+.quote-text {
+    position: relative;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: italic;
+    top: 40%;
+    margin: 0 40px;
+    text-align: center;
+}
+
+.writer {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.experience {
+    height: 820px;
+    background-color: #F4F4F4;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.472);
+}
+
+.dl-resume {
+    height: 150px;
+    background-color: #198797;
+}
+
+.dl-resume-content {
+    text-align: center;
+    transition: 0.4s ease-in-out;
+}
+
+.dl-resume-content p {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+    top: 53px;
+}
+
+.dl-resume-content:hover {
+    cursor: pointer;
+    opacity: 0.3;
+}
+
+.projects {
+    height: 1000px;
+    background-color: #F4F4F4;
+}
+
+.connect{
+    height: 400px;
+    background-color: #e0e0e0;
+}
+
+.footer {
+    height: 300px;
+    background-color: #282F36;
+}
