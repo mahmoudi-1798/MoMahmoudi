@@ -11,6 +11,7 @@ html {
 
 body {
     background-color: #F6F4EB;
+    overflow-x: hidden;
 }
 
 .header {
@@ -171,9 +172,109 @@ body {
 }
 
 .experience {
-    height: 820px;
+    height: 700px;
     background-color: #F4F4F4;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.472);
+    width: 100%;
+}
+
+.experience-skill {
+    display: flex;
+}
+
+.experience-content {
+    display: flex;
+    position: relative;
+    top: 10%;
+}
+
+.exp-title {
+    font-size: 21px;
+    font-weight: 550;
+    color: #164856;
+}
+
+.exp-jobs{
+    margin-left: 70px;
+    border-left:  2px solid  #282F36;
+    padding-left: 10px;
+}
+
+.job {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    width:500px;
+}
+
+.position {
+    font-weight: 500;
+}
+
+.place-time {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.place a{
+    text-decoration: none;
+    color: black;
+}
+
+.time, .place a {
+    font-size: 15px;
+    font-weight: 50;
+    color: rgba(0, 0, 0, 0.548);
+}
+
+.skills {
+    height: 700px;
+    background-color: #F4F4F4;
+}
+
+.skills-content {
+    display: flex;
+    position: relative;
+    top: 10%;
+    left:10%;
+}
+
+.skills-title {
+    font-size: 21px;
+    font-weight: 550;
+    color: #164856;
+}
+
+.skill-list {
+    margin-left: 135px;
+    border-left:  2px solid  #282F36;
+    padding-left: 10px;
+}
+
+.skill {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    width:500px;
+}
+
+.skill-head {
+    font-weight: 500;
+}
+
+.skill-items {
+    display: flex;
+    margin-top: 10px;
+}
+
+.item {
+    border: 2px solid #1648568f;
+    color: #164856cb;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 13px;
+    margin-right: 10px;
 }
 
 .dl-resume {
@@ -212,4 +313,9 @@ body {
 .footer {
     height: 300px;
     background-color: #282F36;
+}
+
+.icon {
+    color: #F4F4F4;
+    font-size: 30px;
 }
