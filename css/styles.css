@@ -285,14 +285,15 @@ body {
 .dl-resume-content {
     text-align: center;
     transition: 0.4s ease-in-out;
+
 }
 
 .dl-resume-content p {
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 500;
     position: relative;
-    top: 53px;
+    top: 63px;
 }
 
 .dl-resume-content:hover {
@@ -305,17 +306,128 @@ body {
     background-color: #F4F4F4;
 }
 
+.projects-content {
+    margin-top: 100px;
+    margin-inline: 150px;
+}
+
+.projects-title {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 50px;
+    font-weight: lighter;
+}
+
+.proj-list {
+    margin-top: 50px;
+}
+
+.proj-item {
+    background-color: #D7E5E9;
+    margin-bottom: 40px;
+    height: 250px;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
+}
+
+.proj-item-img {
+    border-radius: 20px;
+}
+
+.proj-item-description {
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 800px;
+}
+
+.proj-item-title {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.proj-item-text{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 25px;
+}
+
+.proj-tags {
+    display: flex;
+    margin-top: 10px;
+}
+
+.proj-tag {
+    font-size: 12px;
+    font-weight: 550;
+    background-color: #277b884a;
+    color: #D7E5E9;
+    margin-right: 15px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
 .connect{
     height: 400px;
     background-color: #e0e0e0;
+    text-align: center;
+}
+
+.connect-content {
+    padding-top: 90px;
+    margin-inline: 600px;
+}
+
+.connect-icon {
+    font-size: 100px;
+}
+
+.connect-title {
+    margin-top: 30px;
+    font-size: 35px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+}
+
+.connect-text {
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .footer {
-    height: 300px;
-    background-color: #282F36;
+    height: 250px;
+    background-color: #1f252a;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-icons {
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 .icon {
-    color: #F4F4F4;
-    font-size: 30px;
+    color: #e0e0e0;
+    font-size: 25px;
+    margin-left: 0px;
+    background-color: #282F36; /* #303437 */
+    padding: 15px;
+    transition: 0.4s ease-in-out; 
+}
+
+.pirate-logo {
+    color: #e0e0e058;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.copyright {
+    color: #e0e0e0;
+    font-size: 15px;
+    font-weight: 100;
+    padding-top: 20px;
 }
