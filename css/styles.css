@@ -80,7 +80,7 @@ body {
 }
 
 .list li a {
-    font-size: 27px;
+    font-size: 25px;
     color: white;
     text-decoration: none;
     position: relative;
@@ -119,6 +119,19 @@ body {
     margin-top: 10px;
 }
 
+.header-arrow {
+    position: absolute;
+    display: flex;
+    top: 90%;
+    left: 49%;
+}
+
+.header-arrow i {
+    font-size: 40px;
+    color: #f4f4f483;
+    z-index: 3;
+}
+
 .about {
     height: 820px;
     background-color: #F4F4F4;
@@ -147,7 +160,8 @@ body {
 .about-text {
     font-size: 22px;
     font-weight: lighter;
-    margin-inline: 250px;
+    width: 1000px;
+    margin-inline: auto;
 }
 
 .quote {
@@ -214,7 +228,7 @@ body {
     margin-top: 5px;
     display: flex;
     justify-content: space-between;
-    width: 600px;
+    width: 700px;
 }
 
 .place a{
@@ -226,6 +240,11 @@ body {
     font-size: 15px;
     font-weight: 50;
     color: rgba(0, 0, 0, 0.548);
+}
+
+.job-description {
+    padding-top: 10px;
+    font-size: 13px;
 }
 
 .skills {
@@ -247,7 +266,7 @@ body {
 }
 
 .skill-list {
-    margin-left: 135px;
+    margin-left: 70px;
     border-left:  2px solid  #282F36;
     padding-left: 10px;
 }
@@ -302,20 +321,25 @@ body {
 }
 
 .projects {
-    height: 1000px;
+    height: 1200px;
     background-color: #F4F4F4;
 }
 
 .projects-content {
-    margin-top: 100px;
+    padding-top: 90px;
     margin-inline: 150px;
 }
 
 .projects-title {
     text-align: center;
     font-size: 35px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     font-weight: lighter;
+}
+
+.projects-title-side {
+    margin-top: 10px;
+    font-size: 15px;
 }
 
 .proj-list {
@@ -332,18 +356,34 @@ body {
 }
 
 .proj-item-img {
-    border-radius: 20px;
+    border-radius: 20px 0 0 20px;
+    border-right: 7px #8cb6c3 solid;
+    width: 420px;
 }
 
 .proj-item-description {
     margin-top: 40px;
-    margin-left: 30px;
-    width: 800px;
+    margin-left: 50px;
+    width: 970px;
+}
+
+.proj-item-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .proj-item-title {
     font-size: 30px;
-    font-weight: lighter;
+    font-weight:550;
+}
+
+.proj-item-date {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1f252ad2;
+    position: relative;
+    top: 5px;
 }
 
 .proj-item-text{
@@ -351,20 +391,33 @@ body {
     font-weight: lighter;
     color: rgba(0, 0, 0, 0.5);
     margin-top: 25px;
+    height: 80px;
+}
+
+.proj-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.proj-footer a {
+    color: #164856b8;
+    font-size: 37px;
+    
 }
 
 .proj-tags {
     display: flex;
-    margin-top: 10px;
 }
 
 .proj-tag {
     font-size: 12px;
     font-weight: 550;
-    background-color: #277b884a;
+    background-color: #164856b8; /* #277b8878 */ 
     color: #D7E5E9;
     margin-right: 15px;
-    padding: 8px;
+    padding: 8px 10px;
     border-radius: 5px;
 }
 
