@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing:border-box;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -364,7 +364,8 @@ body {
 .proj-item-description {
     margin-top: 40px;
     margin-left: 50px;
-    width: 970px;
+    width: 960px;
+    margin-right: 30px;
 }
 
 .proj-item-head {
@@ -383,6 +384,8 @@ body {
     font-weight: bold;
     color: #1f252ad2;
     position: relative;
+    vertical-align: middle;
+    padding-bottom: 10px;
     top: 5px;
 }
 
@@ -398,13 +401,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .proj-footer a {
     color: #164856b8;
-    font-size: 37px;
-    
+    font-size: 37px;  
 }
 
 .proj-tags {
@@ -484,3 +485,112 @@ body {
     font-weight: 100;
     padding-top: 20px;
 }
+
+@media (max-width: 1710px){
+    .header-texts{
+        width: 50%;
+        left: 25%;
+    }
+}
+
+@media (max-width: 1620px) {
+    .projects {
+        height: 1250px;
+    }
+    .proj-item {
+        height: 280px;
+    }
+    .proj-item-img {
+        width: 500px;
+    }
+    .proj-footer {
+        padding-top: 20px;
+    }
+    .proj-item-description {
+        margin-right: 50px;
+    }
+    .place-time {
+        width: 500px;
+    }
+    .connect-content {
+        padding-top: 70px;
+    }
+}
+
+@media (max-width: 1500px){
+    .place-time, .job-description {
+        width: 400px;
+    }
+    .job{
+        width: 400px;
+    }
+    .proj-item-title{
+        font-size: 20px;
+    }
+    .proj-item-text{
+        font-size: 15px;
+    }
+    .proj-item-date{
+        font-size: 15px;
+    }
+    .connect-title{
+        font-size: 30px;
+    }
+    .connect-text{
+        font-size: 17px;
+    }
+    .connect-content{
+        margin-inline: 550px;
+    }
+    .skill {
+        width: 400px;
+    }
+}
+
+@media (max-width:1365px){
+    .h-text{
+        font-size: 18px;
+    }
+    .h-title{
+        font-size: 35px;
+    }
+}
+
+@media (max-width:1335px){
+    .connect-content{
+        margin-inline: 500px;
+    }
+    .proj-item{
+        display: inline-block;
+    }
+    .proj-item-img{
+        width: 1000px;
+        height: 550px;
+        border-radius: 20px 20px 0 0 ;
+        border: 0;
+        border-bottom: 7px #8cb6c3 solid;
+    }
+    .proj-item {
+        height: 800px;
+        width: 1000px;
+    }
+    .projects{
+        height: 2800px;
+    }
+    .proj-item-description{
+        width: 900px;
+        margin-top: 30px;
+    }
+    .proj-footer{
+        padding: 0;
+    }
+    .navbar{
+        padding-inline: 50px;
+    }
+}
+@media (max-width:1270px){
+    .projects-content{
+        margin-inline: 100px;
+    }
+}
+
