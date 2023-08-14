@@ -129,7 +129,6 @@ body {
 .header-arrow i {
     font-size: 40px;
     color: #f4f4f483;
-    z-index: 3;
 }
 
 .about {
@@ -587,10 +586,175 @@ body {
     .navbar{
         padding-inline: 50px;
     }
+    .place-time{
+        width: 380px;
+    }
 }
 @media (max-width:1270px){
     .projects-content{
         margin-inline: 100px;
     }
+    .place-time{
+        width: 380px;
+    }
 }
 
+@media (max-width:1210px){
+    .h-title{
+        font-size: 30px;
+    }
+    .h-text{
+        font-size: 15px;
+    }
+    .list li a {
+        font-size: 23px;
+    }
+    .logo{
+        font-size: 30px
+    }
+    .exp-title{
+        font-size: 20px;
+    }
+    .position{
+        font-size: 17px;
+    }
+    .time, .place a{
+        font-size: 13px;
+    }
+    .place-time, .job-description {
+        width: 350px;
+    }
+    .job-description{
+        font-size: 12px;
+    }
+    .skill-head{
+        font-size: 17px;
+    }
+    .item{
+        font-size: 12px;
+    }
+    .connect-content{
+        margin-inline: 450px;
+    }
+    .job{
+        width: 350px;
+    }
+}
+@media (max-width:1170px){
+    .projects-content{
+        margin-inline: 100px;
+    }
+    .experience-content{
+        display: block;
+        width: 400px;
+        margin-left: 150px;
+    }
+    .exp-jobs{
+        margin: 0;
+    }
+    .exp-title{
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .skills-content{
+        display: block;
+        margin-left: 70px;
+    }
+    .skill-list{
+        margin: 0;
+    }
+    .skills-title{
+        margin-bottom: 20px;
+    }
+    .proj-item-img{
+        width: 900px;
+    }
+    .proj-item{
+        width: 900px;
+    }
+    .proj-item-description{
+        width: 800px;
+    }
+    .connect-content{
+        margin-inline: 400px;
+    }
+}
+@media (max-width:1040px){
+    .experience-content{
+        margin-left: 100px;
+    }
+    .projects-content{
+        margin-inline: 50px;
+    }
+    .h-title{
+        font-size: 27px;
+    }
+    .connect-content{
+        margin-inline: 370px;
+    }
+}
+@media (max-width:1010px){
+    .proj-item-img{
+        width: 800px;
+        height: 450px;
+    }
+    .proj-item{
+        width: 800px;
+        height: 700px;
+    }
+    .proj-item-description{
+        width: 700px;
+    }
+    .projects-content{
+        margin-inline: 100px;
+    }
+    .experience-content{
+        margin-left: 60px;
+    }
+    .experience{
+        width: 510px;
+    }
+    .about-text{
+        font-size: 18px;
+        margin-inline: 70px;
+        width: 800px;
+    }
+    .projects{
+        height: 2500px;
+    }
+    .h-title{
+        font-size: 26px;
+    }
+}
+@media (max-width:980px){
+    .logo{
+        font-size: 25px;
+    }
+    .list li a {
+        font-size: 18px;
+    }
+    .projects-content{
+        margin-inline: 70px;
+    }
+    .skills-content{
+        margin-left: 50px;
+    }
+    .connect-content{
+        margin-inline: 340px;
+    }
+}
+@media (max-width:941px){
+    .experience-content{
+        width: 350px;
+        margin-left: 40px;
+    }
+
+}
+@media (max-width:915px){
+    .h-title{
+        font-size: 25px;
+    }
+    .connect-content{
+        margin-inline: 300px;
+    }
+}
