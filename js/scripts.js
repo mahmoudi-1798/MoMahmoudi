@@ -8,3 +8,10 @@ window.addEventListener('scroll', () => {
     navbar.classList.remove('scrolled');
   }
 });
+
+document.getElementById('btn').addEventListener('click', function() {
+  var menuList = document.getElementById('list');
+  var navbar = document.getElementById('navbar');
+  menuList.classList.toggle('active');
+  navbar.classList.toggle('active');
+});
