@@ -1011,12 +1011,13 @@ body {
         height: 420px;
     }
     .experience-content{
-        margin-left: 103px;
+        margin-left: 63px;
         padding-top: 20px;
     }
     .experience{
         height: 300px;
         width: auto;
+        padding-left: 40px;
     }
     .exp-title, .skills-title{
         font-size: 21px;
@@ -1049,5 +1050,174 @@ body {
     }
 }
 @media (max-width:610px){
-
+    .header-arrow{
+        left: 47%;
+    }
+    .about-text{
+        margin-inline: 70px;
+    }
+    .quote{
+        height: 300px;
+    }
+    .experience-content{
+        margin-left: 57px;
+    }
+    .place-time, .job-description{
+        width: 400px;
+    }
+    .projects-content{
+        margin-inline: 40px;
+    }
+    .header-texts{
+        width: 95%;
+        left: 2%;
+    }
+}
+@media (max-width:550px){
+    .about-text{
+        margin-inline: 40px;
+    }
+    .place-time, .job-description{
+        width: 350px;
+    }
+    .projects-content{
+        margin-inline: 20px;
+    }
+    .connect-content{
+        margin-inline: 140px;
+    }
+    .h-title{
+        font-size: 27px;
+    }
+}
+@media (max-width:530px){
+    .proj-item-img{
+        width: 400px;
+        height: 250px;
+    }
+    .proj-item{
+        width: 400px;
+        height: 430px;
+    }
+    .proj-item-description{
+        width: 350px;
+        margin-inline: 30px;
+        margin-left: 25px;
+    }
+    .proj-item-text{
+        font-size: 9px;
+        height: 60px;
+        margin-top: 10px;
+    }
+    .proj-item-title{
+        font-size: 17px;
+    }
+    .proj-item-date{
+        font-size: 9px;
+    }
+    .projects{
+        height: 1700px;
+    }
+    .projects-content{
+        margin-inline: 60px;
+    }
+    .connect-content{
+        margin-inline: 100px;
+    }
+}
+@media (max-width:500px){
+    .about-text{
+        font-size: 14px;
+        width: 400px;
+    }
+    .about-title{
+        font-size: 30px;
+    }
+    .h-title{
+        font-size: 24px;
+    }
+    .h-text{
+        font-size: 13px;
+    }
+    .experience-content{
+        margin-inline: 50px;
+    }
+    .experience, .skills{
+        padding-left: 20px;
+    }
+    .projects-content{
+        margin-inline: 40px;
+    }
+    .skill-head, .skill-items, .skill{
+        width: 350px;
+    }
+    .place-time, .job-description{
+        width: 330px;
+    }
+}
+@media (max-width:460px){
+    .projects-content{
+        margin-inline: 20px;
+    }
+    .place-time, .job-description{
+        width: 300px;
+    }
+    .job-description, .item{
+        font-size: 11px;
+    }
+    .experience-content{
+        margin-left: 45px;
+        padding-top: 0;
+    }
+    .experience{
+        height: 270px;
+    }
+    .connect-text{
+        font-size: 13px;
+    }
+    .connect-title{
+        font-size: 25px;
+    }
+    .connect-icon{
+        font-size: 90px;
+    }
+    .connect{
+        height: 350px;
+    }
+    .copyright{
+        font-size: 11px;
+    }
+    .icon{
+        font-size: 22px;
+        padding: 13px;
+    }
+    .footer-icons{
+        padding-top: 40px;
+    }
+    .footer{
+        height: 220px;
+    }
+    .pirate-logo{
+        font-size: 40px;
+    }
+    .about-text{
+        font-size: 13px;
+        width: 350px;
+        margin-inline: 50px;
+    }
+    .about-title{
+        font-size: 27px;
+    }
+    .header-texts{
+        width: 100%;
+        left: 0;
+    }
+    .quote-text{
+        font-size: 18px;
+        width: 100%;
+        margin-inline: 0px;
+    }
+    .quote{
+        height: 270px;
+    }
 }
