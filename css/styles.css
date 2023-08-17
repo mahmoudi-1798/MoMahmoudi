@@ -307,29 +307,49 @@ body {
 }
 
 .dl-resume {
-    height: 150px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 150px; /* Adjust the height as needed */
     background-color: #198797;
 }
 
-.dl-resume-content {
+.face-button {
+    height: 150px;
+    width: 100%;
+    display: inline-block;
+    border: 3px solid #F4F4F4;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
     text-align: center;
-    transition: 0.4s ease-in-out;
-
+    text-decoration: none;
+    color: #F4F4F4;
+    overflow: hidden;
 }
-
-.dl-resume-content p {
-    color: white;
-    font-size: 20px;
-    font-weight: 500;
-    position: relative;
-    top: 63px;
+.face-button .icon {
+    margin-right: 6px;
 }
-
-.dl-resume-content:hover {
-    cursor: pointer;
-    opacity: 0.3;
+.face-button .face-primary, .face-button .face-secondary {
+    display: block;
+    padding: 0 75px;
+    line-height: 150px;
+    transition: margin 0.6s;
 }
-
+.face-button .face-primary {
+    background-color: #198797;
+    color: #F4F4F4;
+}
+.face-button:hover .face-primary {
+    margin-top: -150px;
+}
+.face-secondary{
+    background-color: #07272c;
+}
+.icon.fa-solid.fa-cloud-arrow-down{
+    background-color: #07272c;
+    font-size: 40px;
+}
 .projects {
     height: 1200px;
     background-color: #F4F4F4;
@@ -485,18 +505,11 @@ body {
     padding: 15px;
     transition: 0.4s ease-in-out; 
 }
-
-.pirate-logo {
-    color: #e0e0e058;
-    font-size: 50px;
-    font-weight: lighter;
-}
-
 .copyright {
     color: #e0e0e0;
     font-size: 15px;
     font-weight: 100;
-    padding-top: 20px;
+    padding-top: 70px;
 }
 
 @media (max-width: 1710px){
@@ -1200,9 +1213,6 @@ body {
     .footer{
         height: 220px;
     }
-    .pirate-logo{
-        font-size: 40px;
-    }
     .about-text{
         font-size: 13px;
         width: 350px;
@@ -1292,5 +1302,19 @@ body {
     }
     .about-text{
         margin-left: 30px;
+    }
+}
+@media (max-width:394px){
+    .projects-content{
+        margin-inline: 20px;
+    }
+    .experience, .skills{
+        padding-left: 10px;
+    }
+    .h-title{
+        font-size: 20px;
+    }
+    .about-text{
+        width: 325px;
     }
 }
