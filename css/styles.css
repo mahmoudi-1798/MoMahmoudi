@@ -887,7 +887,7 @@ body {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: #000;
+        /*background-color: #000;*/
         padding: 15px 20px;
         color: white;
     }
@@ -920,7 +920,7 @@ body {
         text-align: center;
     }
     .navbar.scrolled{
-        background-color: #000;
+        /*background-color: #000;*/
     }
 }
 @media (max-width:760px){
@@ -1072,6 +1072,9 @@ body {
         width: 95%;
         left: 2%;
     }
+    .logo{
+        font-size: 25px;
+    }
 }
 @media (max-width:550px){
     .about-text{
@@ -1219,5 +1222,75 @@ body {
     }
     .quote{
         height: 270px;
+    }
+}
+@media (max-width:425px){
+    .h-title{
+        font-size: 22px;
+    }
+    .about-title, .projects-title{
+        font-size: 25px;
+    }
+    .projects-title-side{
+        font-size: 12px;
+    }
+    .about-text{
+        margin-inline: 40px;
+    }
+    .experience-content{
+        margin-left: 40px;
+    }
+    .skill-head, .skill, .skill-items{
+        width: 300px;
+    }
+    .proj-item-img{
+        width: 350px;
+        height: 225px;
+    }
+    .proj-item{
+        width: 350px;
+        height: 400px;
+    }
+    .proj-item-description{
+        width: 300px;
+        margin-inline: 25px;
+    }
+    .proj-footer a i {
+        font-size: 20px;
+    }
+    .proj-item-text{
+        font-size: 9px;
+        height: 60px;
+        margin-top: 10px;
+    }
+    .proj-item-title{
+        font-size: 15px;
+    }
+    .proj-item-text{
+        height: 50px;
+    }
+    .proj-item-date{
+        font-size: 8px;
+    }
+    .projects{
+        height: 1550px;
+    }
+    .projects-content{
+        margin-inline: 40px;
+    }
+    .proj-tag{
+        font-size: 7px;
+        padding: 4px 7px;
+    }
+    .proj-tags{
+        padding-top: 5px;
+    }
+}
+@media (max-width:415px){
+    .projects-content{
+        margin-inline: 35px;
+    }
+    .about-text{
+        margin-left: 30px;
     }
 }
