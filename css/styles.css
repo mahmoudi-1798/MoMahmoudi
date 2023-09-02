@@ -176,7 +176,7 @@ body {
 
 .quote {
     height: 500px;
-    background-image: url("../assets/images/wil-stewart-RpDA3uYkJWM-unsplash.jpg");
+    background-image: url("../assets/images/quote_bg.png");
 }
 
 .quote-text {
@@ -933,9 +933,9 @@ body {
         padding: 15px 10px;
         text-align: center;
     }
-    .navbar.scrolled{
-        /*background-color: #000;*/
-    }
+    /*.navbar.scrolled{
+        background-color: #000;
+    }*/
 }
 @media (max-width:760px){
     .projects-content{
